@@ -100,7 +100,7 @@ header h1{
 .discover-container__subtitle{
     width:85%;
     margin:0 auto;
-    color:var(--dark-grey);
+    color:var(--light-grey);
     text-align: center;
     line-height:1.3rem;
     font-size:1.1rem;
@@ -147,7 +147,6 @@ header h1{
     margin-bottom:10px;
     border-radius:8px 8px 0 0;
 }
-    
 
 .articles-card>div:nth-child(1) .articles-card__img{
     background-image:url("./assets/img/article2.png");

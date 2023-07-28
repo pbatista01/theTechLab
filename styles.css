@@ -29,16 +29,16 @@ header{
 }
 
 header img{
-    margin:40px 0 30px 25px;
+    margin:40px 0 25px 25px;
 }
 
 header h1{
     width:90%;
     min-width:270px;
-    font-size:1.2rem;
+    font-size:1.25rem;
     font-family: 'Lato', sans-serif;
     font-weight:bold;
-    line-height:18px;
+    line-height:1.4rem;
     color: var(--white);
     letter-spacing: 0.05rem;
     margin:0 auto;
@@ -88,14 +88,14 @@ header h1{
 }
 
 .discover-container__title{
-    width:90%;
+    width:80%;
     margin:0 auto;
     font-family: 'Lato', sans-serif;
     font-weight:bold;
     color: var(--blue);
     margin-bottom:15px;
     text-align: center;
-    font-size:1.2rem;
+    font-size:1.4rem;
 }
 
 .discover-container__subtitle{
@@ -103,10 +103,9 @@ header h1{
     margin:0 auto;
     color:var(--dark-grey);
     text-align: center;
-    line-height:1.1rem;
-    font-size:0.8rem;
+    line-height:1.3rem;
+    font-size:1rem;
     font-weight: 300;
-    letter-spacing: 0.3px;
     margin-bottom:30px;
 }
 

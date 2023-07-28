@@ -38,9 +38,8 @@ header h1{
     font-size:1.25rem;
     font-family: 'Lato', sans-serif;
     font-weight:bold;
-    line-height:1.4rem;
+    line-height:1.5rem;
     color: var(--white);
-    letter-spacing: 0.05rem;
     margin:0 auto;
 }
 
@@ -88,14 +87,14 @@ header h1{
 }
 
 .discover-container__title{
-    width:80%;
+    width:85%;
     margin:0 auto;
     font-family: 'Lato', sans-serif;
     font-weight:bold;
     color: var(--blue);
     margin-bottom:15px;
     text-align: center;
-    font-size:1.4rem;
+    font-size:1.5rem;
 }
 
 .discover-container__subtitle{
@@ -104,7 +103,7 @@ header h1{
     color:var(--dark-grey);
     text-align: center;
     line-height:1.3rem;
-    font-size:1rem;
+    font-size:1.1rem;
     font-weight: 300;
     margin-bottom:30px;
 }
@@ -114,7 +113,7 @@ header h1{
     min-width: 320px;
     max-width:800px;
     margin: 0 auto;
-    height:250px;
+    height:300px;
     display:flex;
     flex-direction: row;
     overflow-x: scroll;
@@ -123,13 +122,12 @@ header h1{
 }
 
 .articles-card>div{
-    width:220px;
-    height:220px;
+    width:240px;
+    height:280px;
     border-radius:8px;
     text-align: start;
     margin:0 auto;
     box-shadow: 0 4px 8px rgba(89,73,30,0.16);
-    margin-left:30px;
     scroll-snap-align: center;
 }
 
@@ -164,30 +162,31 @@ header h1{
 .articles-card__title{
     font-weight:bold;
     font-family: 'Lato', sans-serif;
-    font-size:0.75rem;
-    margin-left:10px;
+    font-size:1.1rem;
+    margin-left:15px;
     color:var(--dark-grey);
 }
 
 .articles-card__info{
-    margin: 10px;
+    margin:10px 15px;
     color:var(--light-grey);
-    font-size:0.6rem;
+    font-size:1rem;
     line-height:0.9rem;
 }
 
 .articles-card__button{
     display: inline-block;
     padding: 6px;
-    border-top:1px solid var(--light-grey);
-    width: 160px;
+    border-top:1px solid #787e7e5e;
+    width: 190px;
     text-align: center;
     text-decoration: none;
     color: var(--blue);
-    margin-left:12px;
+    margin-left:18px;
     font-family: 'Lato', sans-serif;
-    padding-top:8px;
-    font-size:0.7rem;
+    padding-top:5px;
+    font-size:1rem;
     cursor:pointer;
+    margin-top:10px;
 }
 

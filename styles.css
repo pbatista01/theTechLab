@@ -35,10 +35,10 @@ header img{
 header h1{
     width:90%;
     min-width:270px;
-    font-size:1.25rem;
+    font-size:1.4rem;
     font-family: 'Lato', sans-serif;
     font-weight:bold;
-    line-height:1.5rem;
+    line-height:1.6rem;
     color: var(--white);
     margin:0 auto;
 }
@@ -53,7 +53,7 @@ header h1{
     border-radius: 5px;
     position:absolute;
     top:220px;
-    left:calc(50% - 85px);
+    left:calc(50% - 90px);
     text-decoration: none;
     font-size:1.05rem;
     padding:10px 10px;
@@ -129,15 +129,15 @@ header h1{
     margin:0 auto;
     box-shadow: 0 4px 8px rgba(89,73,30,0.16);
     scroll-snap-align: center;
-    margin-left:25px;
+    margin-left:40px;
 }
 
 .articles-card>div:nth-child(1){
-    margin-left:60px;
+    margin-left:80px;
 }
 
 .articles-card>div:nth-child(3){
-    margin-right:60px;
+    margin-right:80px;
 }
 .articles-card__img{
     width:100%;
@@ -190,4 +190,102 @@ header h1{
     cursor:pointer;
     margin-top:10px;
 }
+
+
+.section2{
+    height:auto;
+    background-color:#4dbdebc9;
+    position: relative;
+    padding:10px;
+}
+
+.section2 .dots-icon-separator{
+    display:inline-block;
+    width: 50px;
+    height:50px;
+    background-image: url("./assets/icons/dots.svg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:-25px;
+    left: calc(50% - 30px);
+}
+
+.section2 h3{
+    width:90%;
+    font-size:1.3rem;
+    padding:10px;
+    text-align: center;
+    margin-top:30px;
+    color:var(--white);
+    font-family: 'Lato', sans-serif;
+    line-height:1.6rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom:20px;
+}
+
+.service-offer-container{
+    width:100%;
+    min-width:320px;
+    max-width:900px;
+    display:flex;
+    flex-direction: column;
+}
+
+.service-offer-card{
+    display:block;
+    width:85%;
+    height:100px;
+    background-color:var(--blue-casal);
+    border:none;
+    border-radius:8px;
+    padding:5px 10px;
+    margin: 0 auto;
+    box-shadow: 4px 4px 8px rgb(0 0 0 / 45%);
+    margin-bottom:20px;
+}
+
+.service-offer-card__icon{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-left:-3px;
+}
+
+.interviews{
+    background-image: url("./assets/icons/interviews.svg");
+}
+
+
+.gadgets{
+    background-image: url("./assets/icons/gadgets.png");
+}
+
+.news{
+    background-image: url("./assets/icons/news.svg");
+}
+
+.trends{
+    background-image: url("./assets/icons/trends.svg");
+}
+
+.service-offer-card__title{
+    font-size:1.1rem;
+    color:var(--white);
+    font-family: 'Lato', sans-serif;
+    margin-top:-5px;
+    letter-spacing:1px;
+}
+
+.service-offer-card__info{
+    width:100%;
+    font-size:0.85rem;
+    margin:5px 0;
+    color:var(--light-grey);
+    line-height: 1.05rem;
+}
+
 

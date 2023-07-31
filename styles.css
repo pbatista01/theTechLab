@@ -273,7 +273,7 @@ header h1{
 }
 
 .service-offer-card__title{
-    font-size:1.3rem;
+    font-size:1.1rem;
     color:var(--white);
     font-family: 'Lato', sans-serif;
     margin-top:-5px;
@@ -282,10 +282,65 @@ header h1{
 
 .service-offer-card__info{
     width:100%;
-    font-size:1rem;
+    font-size:0.85rem;
     margin:7px 0;
     color:var(--light-grey);
     line-height: 1.2rem;
 }
+
+.additional-image-img{
+    display:inline-block;
+    width:100%;
+    min-width: 320px;
+    height:40vh;
+    background-image: url("./assets/img/adicionalImg.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.additional-image-text{
+    width:70%;
+    font-size:1.2rem;
+    color:var(--blue);
+    font-weight:bold;
+    font-family: 'lato', sans-serif;
+    line-height:1.4rem;
+    text-align: center;
+    margin:0 auto;
+    padding-top:40px;
+}
+
+.plans-card-container{
+    height:auto;
+    width:100%;
+    min-width: 320px;
+    max-width:900px;
+}
+
+.plans-card-container h3{
+    width:80%;
+    font-size:1.2rem;
+    margin: 0 auto;
+    text-align:center;
+    color: var(--blue);
+    margin-top:20px;
+    margin-bottom:20px;
+    letter-spacing: 1.5px;
+    font-family: 'lato', sans-serif;
+}
+
+.plans-card{
+    width:65%;
+    min-width:230px;
+    max-width:260px;
+    height:auto;
+    background-color: var(--white);
+    border:1px solid black;
+    margin:0 auto;
+    border-radius:8px;
+}
+
+
+
 
 

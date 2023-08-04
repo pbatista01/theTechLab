@@ -500,5 +500,97 @@ footer p{
     margin-top:12px;    
 }
 
+@media (min-width:425px){
+    header h1{
+        font-size:1.2rem;
+        letter-spacing:1px;
+        line-height:1.4rem;
+    }
+
+    .header__button{
+        width:170px;
+        font-size:1rem;
+        left: calc(50% - 85px);
+    }
+
+    .discover-container__title{
+        font-size:1.35rem;
+    }
+
+    .discover-container__subtitle{
+        font-size:1.1rem;
+    }
+
+    .articles-card>div{
+        width:270px;
+        height:285px;
+    }
+
+    .articles-card__title{
+        font-size:1.04rem;
+    }
+
+    .articles-card__info{
+        font-size:1rem;
+    }
+
+    .section2 h3{
+        font-size:1.2rem;
+    }
+
+    .service-offer-card__title{
+        font-size:1.2rem;
+    }
+    .service-offer-card__info{
+        font-size:1.08rem;
+    }
+    .additional-image-text{
+        font-size:1.35rem;
+    }
+    .plans h3{
+        font-size:1.3rem;
+    }
+    .plans-card__title{
+        font-size:1.1rem;
+    }
+    .plans-card__amount{
+        font-size:3.8rem;
+    }
+
+    .plans-card{
+        padding:15px 30px;
+    }
+    .plans-card:nth-child(1) {
+        margin-left:90px;
+    }
+    .plans-card:nth-child(3) {
+        margin-right:90px;
+    }
+    .plans-card-details p {
+    font-size:0.85rem;
+    }
+    .plans-card__button{
+        width:120px;
+        margin-left:40px;
+    }
+    .plans-card__button a{
+        font-size:1rem;
+    }
+    footer p{
+        font-size:1rem;
+    }
+    .social-media span{
+        width:20px;
+        height:20px;
+    }
+    .footer-right{
+        width:115px;
+        height:62px;
+    }
+
+
+}
+
+
 
 

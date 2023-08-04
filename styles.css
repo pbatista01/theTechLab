@@ -215,7 +215,7 @@ header h1{
 
 .section2 h3{
     width:90%;
-    font-size:1.2rem;
+    font-size:1.1rem;
     padding:10px;
     text-align: center;
     margin-top:30px;
@@ -356,7 +356,7 @@ header h1{
     position:relative;
     scroll-snap-align: center;
     margin-left:30px;
-    box-shadow: 4px 4px 8px rgb(0 0 0 / 45%);
+    box-shadow: 0 4px 8px rgba(89,73,30,0.16);
     margin-bottom:10px;
 }
 
@@ -502,6 +502,28 @@ footer p{
     background-repeat: no-repeat;
     margin-left:30px;
     margin-top:12px;
+}
+
+@media (min-width:425px) {
+    header h1{
+        font-size:1.3rem;
+        line-height:1.4rem;
+        letter-spacing:1px;
+    }
+
+    .header__button{
+        width: 170px;
+        left: calc(50% - 85px);
+        font-size: 1rem;
+    }
+
+    .discover-container__title{
+        font-size:1.4rem;
+    }
+
+    .discover-container__subtitle{
+        font-size: 1.1rem;
+    }
 }
 
 

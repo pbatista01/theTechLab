@@ -403,11 +403,7 @@ header h1{
     font-size:1rem;
     position:absolute;
     top:10px;
-    left:calc(50% - 30px);
-}
-
-.plans-card__amount .dollar-sign:nth-child(2){
-    left:calc(50% - 45px);
+    left:calc(50% - 42px);
 }
 
 .plans-card-details p{
@@ -501,31 +497,8 @@ footer p{
     background-position: center;
     background-repeat: no-repeat;
     margin-left:30px;
-    margin-top:12px;
+    margin-top:12px;    
 }
-
-@media (min-width:425px) {
-    header h1{
-        font-size:1.3rem;
-        line-height:1.4rem;
-        letter-spacing:1px;
-    }
-
-    .header__button{
-        width: 170px;
-        left: calc(50% - 85px);
-        font-size: 1rem;
-    }
-
-    .discover-container__title{
-        font-size:1.4rem;
-    }
-
-    .discover-container__subtitle{
-        font-size: 1.1rem;
-    }
-}
-
 
 
 

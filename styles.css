@@ -586,6 +586,15 @@ footer p{
         margin-right:140px;
     }
 }
+
+@media(min-width:1400px){
+    .articles-card{
+        width:57%;
+    }
+    .footer-left{
+        margin-right:300px;
+    }
+}
 /*
 @media (min-width:425px){
     header h1{
